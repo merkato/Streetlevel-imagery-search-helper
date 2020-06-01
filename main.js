@@ -1,5 +1,5 @@
 
-const client_id = 'NEh3V0ZjaE1fT1Nkdk9jMnJlSGNQQToyNzlmZjQxM2U2MjBjMGUy';
+const client_id = 'ai1YV09pTW1oRlg2R0ZJdnBpemRLdzoyMDQ1ZmFhODMyZTE5YTc1';
 
 let map;
 let poi_markers;
@@ -109,7 +109,7 @@ function initMap() {
 		map.setView([lat, lon], zoom);
 	} else
 	{
-		map.setView([37.9243912, 139.045191], 15);
+		map.setView([51.15, 20.68], 10);
 	}
 
   //表示するタイルレイヤのURLとAttributionコントロールの記述を設定して、地図に追加する

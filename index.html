@@ -8,12 +8,12 @@
 	<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
 	<script src="leaflet-hash.js"></script>
 	
-	<title>Streetlevel imagery search helper</title>
+	<title>Przeglądarka punktów ze zdjęciem</title>
 <style type="text/css">
 
 #mapcontainer {
 	width: 100%;
-	height: 480px;
+	height: 700px;
 }
 
 
@@ -27,16 +27,16 @@
 </head>
 <body onload="initMap()">
 	<nav class="navbar navbar-dark bg-primary mb-2">
-		<h1 class="navbar-brand">Street level imagery search helper</h1>
+		<h1 class="navbar-brand">Szukaj punktów i wyświetl Mapillary</h1>
 		<form class="form-inline">
 			<div class="input-group">
 				<div class="spinner-border text-secondary text-light" role="status" id="spinner" style="display:none">
 					<span class="sr-only">Loading...</span>
 				</div>
-				<input type="text" class="form-control" id="query" value="shop=supermarket">
+				<input type="text" class="form-control" id="query" value="emergency=suction_point">
 				<div class="input-group-append">
 					<button type="button" class="btn btn-secondary" value="Search" onclick="check()">
-						Find
+						Szukaj
 					</button>
 				</div>
 			</div>
